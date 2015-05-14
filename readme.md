@@ -68,6 +68,7 @@ $ superheroes --help
 - [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
+- [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
 
 
 ## License
