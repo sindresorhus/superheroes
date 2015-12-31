@@ -1,10 +1,8 @@
-'use strict';
-var test = require('ava');
-var superheroes = require('./');
+import test from 'ava';
+import x from './';
 
-test(function (t) {
-	t.assert(superheroes.all.length > 0);
-	t.assert(superheroes.all.indexOf('Superman') !== -1);
-	t.assert(superheroes.random());
-	t.end();
+test(t => {
+	t.true(x.all.length > 0);
+	t.true(x.all.indexOf('Superman') !== -1);
+	t.ok(x.random());
 });
