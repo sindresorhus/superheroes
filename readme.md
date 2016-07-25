@@ -67,6 +67,7 @@ $ superheroes --help
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
 - [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
+- [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
 - [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
 
