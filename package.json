@@ -4,7 +4,6 @@
 	"description": "Get superhero names",
 	"license": "MIT",
 	"repository": "sindresorhus/superheroes",
-	"bin": "cli.js",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -18,18 +17,14 @@
 	},
 	"files": [
 		"index.js",
-		"cli.js",
 		"superheroes.json"
 	],
 	"keywords": [
-		"cli-app",
-		"cli",
 		"word",
 		"words",
 		"list",
 		"array",
 		"random",
-		"rand",
 		"superheroes",
 		"superhero",
 		"heroes",
@@ -39,7 +34,6 @@
 		"comics"
 	],
 	"dependencies": {
-		"meow": "^5.0.0",
 		"unique-random-array": "^1.0.0"
 	},
 	"devDependencies": {
