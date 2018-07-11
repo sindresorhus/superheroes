@@ -1,8 +1,8 @@
 import test from 'ava';
-import x from './';
+import superheroes from '.';
 
-test(t => {
-	t.true(x.all.length > 0);
-	t.true(x.all.indexOf('Superman') !== -1);
-	t.truthy(x.random());
+test('main', t => {
+	t.true(superheroes.all.length > 0);
+	t.true(superheroes.all.includes('Superman'));
+	t.truthy(superheroes.random());
 });

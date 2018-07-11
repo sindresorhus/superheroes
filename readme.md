@@ -4,20 +4,20 @@
 
 ![](https://cloud.githubusercontent.com/assets/170270/7563453/ad57a684-f7dd-11e4-8302-081f132e8653.png)
 
-The list is just a [JSON file](superheroes.json) and can be used wherever.
+The list is just a [JSON file](superheroes.json) and can be used anywhere.
 
 
 ## Install
 
 ```
-$ npm install --save superheroes
+$ npm install superheroes
 ```
 
 
 ## Usage
 
 ```js
-var superheroes = require('superheroes');
+const superheroes = require('superheroes');
 
 superheroes.random();
 //=> 'Spider-Ham'
@@ -28,13 +28,13 @@ superheroes.random();
 
 ### .all
 
-Type: `array`
+Type: `Array`
 
 Superhero names in alphabetical order.
 
 ### .random()
 
-Type: `function`
+Type: `Function`
 
 Random superhero name.
 
@@ -74,4 +74,4 @@ $ superheroes --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
