@@ -19,6 +19,9 @@ $ npm install superheroes
 ```js
 const superheroes = require('superheroes');
 
+superheroes.all;
+//=> ['3-D Man', 'A-Bomb', …]
+
 superheroes.random();
 //=> 'Spider-Ham'
 ```
@@ -28,7 +31,7 @@ superheroes.random();
 
 ### .all
 
-Type: `Array`
+Type: `string[]`
 
 Superhero names in alphabetical order.
 
