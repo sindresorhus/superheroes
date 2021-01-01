@@ -1,4 +1,4 @@
-# superheroes [![Build Status](https://travis-ci.org/sindresorhus/superheroes.svg?branch=master)](https://travis-ci.org/sindresorhus/superheroes)
+# superheroes
 
 > Get superhero names
 
