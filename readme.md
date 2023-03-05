@@ -6,13 +6,13 @@
 
 The list is just a [JSON file](superheroes.json) and can be used anywhere.
 
+**I'm not accepting additional entries to the list.**
 
 ## Install
 
+```sh
+npm install superheroes
 ```
-$ npm install superheroes
-```
-
 
 ## Usage
 
@@ -25,7 +25,6 @@ superheroes.all;
 superheroes.random();
 //=> 'Spider-Ham'
 ```
-
 
 ## API
 
@@ -41,7 +40,6 @@ Type: `Function`
 
 Random superhero name.
 
-
 ## Related
 
 - [superheroes-cli](https://github.com/sindresorhus/superheroes-cli) - CLI for this module
@@ -51,8 +49,3 @@ Random superhero name.
 - [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
 - [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
