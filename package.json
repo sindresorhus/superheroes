@@ -4,16 +4,24 @@
 	"description": "Get superhero names",
 	"license": "MIT",
 	"repository": "sindresorhus/superheroes",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=8"
+		"node": ">=18.20"
 	},
 	"scripts": {
-		"test": "xo && ava && tsd"
+		"//test": "xo && ava",
+		"test": "ava"
 	},
 	"files": [
 		"index.js",
@@ -35,16 +43,10 @@
 		"comics"
 	],
 	"dependencies": {
-		"unique-random-array": "^2.0.0"
+		"unique-random-array": "^3.0.0"
 	},
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"tsd": "^0.7.2",
-		"xo": "^0.24.0"
-	},
-	"tsd": {
-		"compilerOptions": {
-			"resolveJsonModule": true
-		}
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
 	}
 }

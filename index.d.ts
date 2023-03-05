@@ -1,31 +1,27 @@
-import superheroesJson = require('./superheroes.json');
+/**
+Superhero names in alphabetical order.
 
-declare const superheroes: {
-	/**
-	Superhero names in alphabetical order.
+@example
+```
+import superheroes from 'superheroes';
 
-	@example
-	```
-	import superheroes = require('superheroes');
+superheroes;
+//=> ['3-D Man', 'A-Bomb', …]
+```
+*/
+declare const superheroes: readonly string[];
 
-	superheroes.all;
-	//=> ['3-D Man', 'A-Bomb', …]
-	```
-	*/
-	readonly all: Readonly<typeof superheroesJson>;
+export default superheroes;
 
-	/**
-	Random superhero name.
+/**
+Get a random superhero name.
 
-	@example
-	```
-	import superheroes = require('superheroes');
+@example
+```
+import {randomSuperhero} from 'superheroes';
 
-	superheroes.random();
-	//=> 'Spider-Ham'
-	```
-	*/
-	random(): string;
-}
-
-export = superheroes;
+randomSuperhero();
+//=> 'Spider-Ham'
+```
+*/
+export function randomSuperhero(): string;

@@ -1,8 +1,8 @@
 import test from 'ava';
-import superheroes from '.';
+import superheroes, {randomSuperhero} from './index.js';
 
 test('main', t => {
-	t.true(superheroes.all.length > 0);
-	t.true(superheroes.all.includes('Superman'));
-	t.truthy(superheroes.random());
+	t.true(superheroes.length > 0);
+	t.true(superheroes.includes('Superman'));
+	t.truthy(randomSuperhero());
 });

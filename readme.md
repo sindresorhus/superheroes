@@ -6,41 +6,43 @@
 
 The list is just a [JSON file](superheroes.json) and can be used anywhere.
 
+**I'm not accepting additional entries to the list.**
 
 ## Install
 
+```sh
+npm install superheroes
 ```
-$ npm install superheroes
-```
-
 
 ## Usage
 
 ```js
-const superheroes = require('superheroes');
+import superheroes from 'superheroes';
 
-superheroes.all;
+superheroes;
 //=> ['3-D Man', 'A-Bomb', …]
-
-superheroes.random();
-//=> 'Spider-Ham'
 ```
-
 
 ## API
 
-### .all
+### superheroes
 
 Type: `string[]`
 
 Superhero names in alphabetical order.
 
-### .random()
+### randomSuperhero()
 
 Type: `Function`
 
-Random superhero name.
+Get a random superhero name.
 
+```js
+import {randomSuperhero} from 'superheroes';
+
+randomSuperhero();
+//=> 'Spider-Ham'
+```
 
 ## Related
 
@@ -51,8 +53,3 @@ Random superhero name.
 - [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
 - [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

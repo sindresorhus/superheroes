@@ -1,6 +1,6 @@
-'use strict';
-const uniqueRandomArray = require('unique-random-array');
-const superheroes = require('./superheroes.json');
+import uniqueRandomArray from 'unique-random-array';
+import superheroes from './superheroes.json' with {type: 'json'};
 
-exports.all = superheroes;
-exports.random = uniqueRandomArray(superheroes);
+export default superheroes;
+
+export const randomSuperhero = uniqueRandomArray(superheroes);
