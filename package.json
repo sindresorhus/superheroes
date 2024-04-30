@@ -1,6 +1,6 @@
 {
 	"name": "superheroes",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Get superhero names",
 	"license": "MIT",
 	"repository": "sindresorhus/superheroes",
